@@ -3,6 +3,7 @@ import pandas as pd
 from tqdm import tqdm
 
 
+"""
 query = (
     "(#BIST30 OR #XU030 OR #AKBNK OR #ARCLK OR #ASELS OR #BIMAS OR"
     " #EKGYO OR #EREGL OR #FROTO OR #GUBRF OR #SAHOL OR #HEKTS OR #KRDMD OR"
@@ -12,6 +13,7 @@ query = (
     " since:2021-01-01 -filter:links -filter:replies"
 )
 
+"""
 
 query = (
     "(#BIST30 OR #XU030 OR #AKBNK OR #ARCLK OR #ASELS OR #BIMAS OR"

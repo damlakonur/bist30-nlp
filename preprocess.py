@@ -1,8 +1,10 @@
 import sys
 import re
+from nltk.corpus import stopwords
+from nltk import download
 
 try:
-    nltk.download("stopwords")
+    download("stopwords")
 except:
     print("Stopwords can't be downloaded.")
     sys.exit()
